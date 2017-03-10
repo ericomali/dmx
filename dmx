@@ -43,8 +43,8 @@
 # Decide on sensible various return values
 # Use TMPDIR for lock files without slashes
 
-if ARGV.size < 2 then
-    print "usage: dmx lockfile command (arguments)\n"
+if ARGV.length < 2 then
+    print "usage: dmx lockfile command [command arguments]\n"
     exit(1)
 end
 
